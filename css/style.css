@@ -5,6 +5,10 @@
   list-style: none;
   font-family: "oswald";
 }
+/* ul{
+  padding: 0;
+  margin: 0;
+} */
 
 html {
   scroll-behavior: smooth;
@@ -83,7 +87,6 @@ header {
   position: relative;
   color: #fff;
   background-size: cover;
-  background-attachment: fixed;
   background-position: center center;
   text-align: center;
 }
@@ -1547,7 +1550,9 @@ header .overlay span::after {
 /* coooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooounters */
 .countersec {
   color: #fff;
-  background-size: contain;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
   background-attachment: fixed;
   text-align: center;
   position: relative;
@@ -1834,11 +1839,12 @@ header .overlay span::after {
 }
 
 #contact .icon-circle {
-  height: 50px;
-  width: 50px;
+  height: 45px;
+  width: 45px;
   font-size: 2rem;
   border-radius: 50%;
   line-height: 1.55;
+  padding: 5px;
   margin: 0px auto;
   text-align: center;
   box-shadow: 0 0 0 3px var(--maincolor);
@@ -1846,6 +1852,12 @@ header .overlay span::after {
   justify-content: center;
   align-items: center;
 }
+
+#contact .social-icons ul {
+  padding: 10px !important;
+  width: 90%;
+}
+
 
 #contact .icon-circle:hover {
   background-color: var(--maincolor);
@@ -1857,13 +1869,15 @@ header .overlay span::after {
   color: #fff;
 }
 
-@media only screen and (max-width: 1200px) and (min-width: 768px) {
+@media only screen and (max-width: 768px) and (min-width: 320px) {
   #contact .icon-circle {
     height: 30px;
     width: 30px;
     font-size: 1rem;
+    margin: 5px;
   }
 }
+
 
 /* --------------------------------Contact------------------------------ */
 /* ---------------------------------footer------------------------------ */
