@@ -577,7 +577,7 @@ header .overlay span::after {
   background-color: var(--main-background);
 }
 
-#services .line-blue {
+#services .under-line {
   height: 3px;
   background-color: var(--maincolor);
   width: 80px;
@@ -1622,7 +1622,7 @@ header .overlay span::after {
 
 /* -------------------------------Counter------------------------------- */
 /* ------------------------------portfolio------------------------------ */
-#portfolio .line-blue {
+#portfolio .under-line {
   height: 3px;
   background-color: var(--maincolor);
   width: 5rem;
@@ -1631,7 +1631,8 @@ header .overlay span::after {
 
 #portfolio .servbox {
   background-color: var(--item-background);
-  box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+  box-shadow:10px 10px 10px -5px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
 }
 
 #portfolio .boxicon-left p span {
@@ -1659,6 +1660,7 @@ header .overlay span::after {
 
 #portfolio .boxcontent-img {
   overflow: hidden;
+  border-radius: 10px 10px 0px 0px;
 }
 
 #portfolio .boxcontent {
@@ -1744,13 +1746,17 @@ header .overlay span::after {
 
 /* -------------------------------curousel------------------------------ */
 /* ---------------------------------BLOG-------------------------------- */
-#blog .line-blue {
+#blog .under-line {
   height: 3px;
   background-color: var(--maincolor);
   width: 80px;
   margin: auto;
 }
-
+@media only screen and (max-width: 560px) and (min-width: 320px){
+#blog .card-text{
+font-size: smaller;
+}
+}
 .blog-sec {
   background-color: var(--main-background);
 }
@@ -1812,7 +1818,7 @@ header .overlay span::after {
   background-color: var(--item-background);
 }
 
-#contact .line-blue {
+#contact .under-line {
   height: 3px;
   background-color: var(--maincolor);
   width: 100px;
