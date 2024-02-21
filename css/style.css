@@ -540,6 +540,16 @@ header .overlay span::after {
   border-radius: 1rem;
 }
 
+@media only screen and (max-width: 768px) and (min-width: 320px) {
+  .about-me p {
+    font-size: 15px !important;
+  }
+  .about-img{
+    text-align: center;
+    margin-bottom: 15px;
+  }
+}
+
 .about-sec {
   background-color: var(--main-background);
 }
