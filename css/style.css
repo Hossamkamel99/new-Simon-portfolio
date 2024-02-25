@@ -607,6 +607,7 @@ header .overlay span::after {
   text-align: center;
   box-shadow: 0 0 0 10px var(--maincolor);
   display: block;
+  cursor: pointer;
 }
 
 #services .servbox:hover .icon-circle {
