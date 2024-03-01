@@ -23,9 +23,9 @@ html {
 
   /* color option 2 */
 
-   --maincolor: rgba(212, 30, 30, 0.637);
-    --item-background: #ffffff;
-    --main-background: #e5e8e9;
+  --maincolor: rgba(212, 30, 30, 0.637);
+  --item-background: #ffffff;
+  --main-background: #e5e8e9;
 }
 
 /* ----------------------------navbar -------------------------------------*/
@@ -44,10 +44,10 @@ html {
 .nav-link:active,
 .nav-link:focus,
 .nav-link:hover {
-  color: var(--maincolor)!important;
+  color: var(--maincolor) !important;
 }
 .navbar-brand:focus,
-.navbar-brand:active{
+.navbar-brand:active {
   color: #fff;
 }
 .navbar-main {
@@ -63,8 +63,6 @@ html {
   visibility: hidden;
   background: none;
 }
-
-
 
 @media only screen and (max-width: 62.1875rem) {
   .navbar-toggler-icon {
@@ -544,7 +542,7 @@ header .overlay span::after {
   .about-me p {
     font-size: 15px !important;
   }
-  .about-img{
+  .about-img {
     text-align: center;
     margin-bottom: 15px;
   }
@@ -1631,7 +1629,7 @@ header .overlay span::after {
 
 #portfolio .servbox {
   background-color: var(--item-background);
-  box-shadow:10px 10px 10px -5px rgba(0, 0, 0, 0.1);
+  box-shadow: 10px 10px 10px -5px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
 }
 
@@ -1752,10 +1750,10 @@ header .overlay span::after {
   width: 80px;
   margin: auto;
 }
-@media only screen and (max-width: 560px) and (min-width: 320px){
-#blog .card-text{
-font-size: smaller;
-}
+@media only screen and (max-width: 560px) and (min-width: 320px) {
+  #blog .card-text {
+    font-size: smaller;
+  }
 }
 .blog-sec {
   background-color: var(--main-background);
@@ -1874,7 +1872,6 @@ font-size: smaller;
   width: 100%;
 }
 
-
 #contact .icon-circle:hover {
   background-color: var(--maincolor);
   box-shadow: 0 0 0 0.1875rem #c4d8ee;
@@ -1893,7 +1890,6 @@ font-size: smaller;
     margin: 5px;
   }
 }
-
 
 /* --------------------------------Contact------------------------------ */
 /* ---------------------------------footer------------------------------ */
