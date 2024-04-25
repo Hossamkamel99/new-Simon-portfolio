@@ -1845,7 +1845,8 @@ header .overlay span::after {
 }
 
 #contact .btn:hover {
-  border: solid #a3d9fa 3px;
+  border: solid  3px;
+  border-color: var(--maincolor);
 }
 
 #contact .gettouch ul {
